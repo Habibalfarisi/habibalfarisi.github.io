@@ -1,0 +1,143 @@
+/* Navbar */
+
+
+.navbar-brand {
+    font-family: Orbitron; 
+    font-size: 32px;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/Wallpaper\ bisnis.jpg);
+    background-size: cover;
+    height: 620px;
+    position: relative;
+    text-align: center;
+}
+
+
+
+
+.jumbotron::after {
+    content: '';
+    display:block;
+    background-color: ;
+    height: 100%;
+    width: 100%
+    
+    
+
+}
+
+.jumbotron .display-4 {
+    color: black;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 30px;
+
+
+}
+
+.jumbotron .display-4 span {
+    color:black;
+    text-align: center;
+    margin-top: 150px;
+    font-weight: 200;
+}
+
+.jumbotron .display-4 span {
+    color: black;
+    font-weight:200;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 40px;
+}
+
+
+/* Info Panel */
+.info-panel {
+    
+
+    
+  
+    
+    
+    
+
+
+}
+
+
+
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color:grey
+}
+
+/* Workingspace */
+.workingspace {
+    margin-top: 120px;
+}
+
+
+/* Testimonial */
+.testimonial {
+     margin-top: 100px;
+}
+
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 32;
+}
+
+.testimonial figure img {
+    width: 90px;
+    margin-top: 20px;
+}
+
+.testimonial figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.testimonial figcaption {
+    font-size: 12px;
+    text-align: center;
+}
+/* DEKSTOP VERSION */
+@media (min-width: 992px) { 
+    .navbar-brand, .nav-link {
+        color: black !important;
+        
+
+
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 40px;
+    }
+
+
+    .nav-link:hover::after {
+        content:'';
+        display: block;
+        border-bottom: 3px solid black;
+        width: 50%
+        margin: auto;
+        pedding-bottom: 5px;
+        margin-bottom: -8px;
+    
+    }
+}
